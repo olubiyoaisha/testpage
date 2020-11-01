@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+        <style>
+            header{
+                background-image: url(header.jpg);
+                background-size: cover;
+                background-position: center;
+                /* min-height: 1000px; */
+                height: 400px;
+            }
+            @media screen and (max-width: 670px) {
+                header{
+                    min-height: 500px;
+                }
+            }
+
+            #image{
+                margin-top: 2rem;
+                padding-left: 30px;
+                width: 500px;
+            }
+        </style>
+   
+</head>
+<body>
+   <header>
+       <div class="navbar-fixed ">
+        <nav class="nav-wrapper black transparent">
+            <div class="container">
+                <a href="#" class="brand-logo">Project</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Link1</a> </li>
+                    <li><a href="">Link2</a> </li>
+                    <li><a href="">Link3</a> </li>
+                                
+                </ul>
+            </div>
+            
+        </nav>
+    </div>
+    </header> <br/>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Link1</a> </li>
+        <li><a href="#">Link2</a> </li>
+        <li><a href="#">Link3</a> </li>
+    </ul>
+
+
+    
+
+
+<!--cards-->
+
+<div class="container">
+    <div class="center-align"><h2>Cards</h2></div> <hr> <br/>
+    <div class="row">
+        <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="video-container">
+                    <iframe src="mat.mp4" allowfullscreen></iframe>
+                </div>
+                <div class="card-content  #01579b light-blue darken-4">
+                    <span class="card-title white-text">The Ted </span>
+                    <p class="white-text">It is all about us</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="video-container">
+                    <iframe src="materialize.mp4" allowfullscreen></iframe>
+                </div>
+                <div class="card-content  #01579b light-blue darken-4">
+                    <span class="card-title white-text">The Ted</span>
+                    <p class="white-text">It is all about us </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="video-container">
+                    <iframe src="mat.mp4" allowfullscreen></iframe>
+                </div>
+                <div class="card-content #01579b light-blue darken-4">
+                    <span class="card-title white-text">The Ted </span>
+                    <p class="white-text">It is all about us </p>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+
+<!--card end-->
+
+<!--parallax-->
+<section >
+<div class="parallax-container" >
+    <div class="parallax">
+        <img src="orange.jpg" class="responsive-img"/>
+</div> <br/>
+</section>
+
+<!--parallax end-->
+
+<!--grid-->
+<div class="container">
+    <div class="row">
+        <div class="col s12 m6 l6 left-align">
+            <h2> Media </h2>
+            <p>Media is the communication outlets or tools used to store and deliver information or data. The term refers to components of the mass media communications industry, such as print media, publishing, the news media, photography, cinema, broadcasting (radio and television), and advertising.</p>
+            <a class="waves-effect waves-light btn  #01579b light-blue darken-4">Know More</a>
+        </div>
+            
+        <div class=" container col s12 m6 l6">
+        <img id="image" src="orange.jpg" >
+        
+        </div>
+    </div>
+
+</div>
+
+<!--grid end-->
+
+<!--footer-->
+<footer class="page-footer #01579b light-blue darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col s6 m6 l6">
+                <h5 class="white-text">Summary</h5>
+                <p>Media is the communication outlets or tools used to store and deliver information or data. The term refers to components of the mass media communications industry, such as print media, publishing, the news media, photography, cinema, broadcasting (radio and television), and advertising.</p>
+
+            </div>
+            <div class="col l4 offset-l2  m6 s12">
+                <h5 class="white-text">About us</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Services</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Summary</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+        <div class="footer-copyright  black">
+            <p class="grey-text text-lighten-4 container center-align"> © 2020 designed by Aisha  </p>
+        </div>
+</footer>
+
+<!--footer end-->
+
+    <!--scripting-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- <script src="materialize/js/jquery.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        var elem = document.querySelector('.sidenav');
+  var instance = new M.Sidenav(elem, {});
+
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, {});
+  });
+  
+    </script>
+</body>
+</html>
